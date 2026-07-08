@@ -1,0 +1,53 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Environments ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+venv/
+env/
+.venv/
+ENV/
+
+# ── Secrets / Credentials ────────────────────────────────────────────────────
+.kaggle/
+kaggle.json
+*.pem
+*.key
+
+# ── Large data files (download via instructions in README) ───────────────────
+data/raw_datasets/
+data/combined_dataset.csv
+
+# ── Trained model files (large — regenerate with train.py) ───────────────────
+models/*.joblib
+models/*.pkl
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
