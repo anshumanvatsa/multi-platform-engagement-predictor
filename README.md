@@ -10,9 +10,17 @@
 </p>
 
 <p align="center">
-  A production-grade machine learning system that classifies social media posts as <strong>HIGH</strong> or <strong>LOW</strong> engagement
+  A machine learning system that classifies social media posts as <strong>HIGH</strong> or <strong>LOW</strong> engagement
   across five platforms — trained on 800K+ real posts with full SHAP explainability.
 </p>
+
+> [!NOTE]
+> **This is the Theoretical / Research Model (F1=0.87)**
+> This repository contains the unrestricted ML pipeline. It achieves a very high F1=0.87 because it includes post-publication metrics (like `total_views` and `total_likes`) in the training data. 
+> 
+> When deploying this as a real-world tool for marketing managers, we identified this as **data leakage** (since you can't know your views *before* you post). We deliberately dropped those columns and built a highly-constrained production web app (F1=0.63).
+> 
+> 👉 **[View the Production Pre-Publication Web App Repo Here](https://github.com/anshumanvatsa/Social-Media-engagement-prediction)**
 
 ---
 
