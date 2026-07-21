@@ -20,7 +20,7 @@
 > 
 > When deploying this as a real-world tool for marketing managers, we identified this as **data leakage** (since you can't know your views *before* you post). We deliberately dropped those columns and built a highly-constrained production web app (F1=0.63).
 > 
-> 👉 **[View the Production Pre-Publication Web App Repo Here](https://github.com/anshumanvatsa/Social-Media-engagement-prediction)**
+> 👉 **[Test the Live Production App Here](https://engageiq-sk54.onrender.com/)** | **[View Production Repo](https://github.com/anshumanvatsa/Social-Media-engagement-prediction)**
 
 ---
 
